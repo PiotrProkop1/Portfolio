@@ -23,12 +23,22 @@
 
             <div class="about-info">
                 Hi, my name is Piotr, and i'm junior web developer. I'm currently looking for a programing job,
-                becouse it is my passion and hobby.
+                becouse it is my passion and hobby. I don't have any commercail experience yet, but i have some decent programming skill and
+                i always want to improve.
             </div>
         </div>
 
         <div class="skills">
+            <span class="skills-info">My Current Skills:</span>
 
+            <div class="skill-odd">HTML5</div>
+            <div class="skill-even">CSS3</div>
+            <div class="skill-odd">JavaScript with EcmaScript 6/7</div>
+            <div class="skill-even">PHP7</div>
+            <div class="skill-odd">MySql</div>
+            <div class="skill-even">Basics of Wordpress</div>
+            <div class="skill-odd">Basics of Symfony4</div>
+            <div class="skill-even">Learning React Redux Node</div>
         </div>
 
         <div class="contact">

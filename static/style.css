@@ -213,3 +213,25 @@ header .header-btn:focus {
         font-size: 7rem;
     }
 }
+
+/* skills styles: */
+
+.skill-odd {
+    background-color: #a4031f;
+    color: #0f0f0f;
+}
+
+.skill-even {
+    background-color: #0c1713;
+    color: #f0f0f0;
+}
+
+.skill-even, .skill-odd {
+    padding: 2rem;
+    width: 50vw; 
+    height: auto;
+}
+
+.skill-even::after {
+    content: '\A';
+}
