@@ -29,16 +29,7 @@
         </div>
 
         <div class="skills">
-            <span class="skills-info">My Current Skills:</span>
-
-            <div class="skill-odd">HTML5</div>
-            <div class="skill-even">CSS3</div>
-            <div class="skill-odd">JavaScript with EcmaScript 6/7</div>
-            <div class="skill-even">PHP7</div>
-            <div class="skill-odd">MySql</div>
-            <div class="skill-even">Basics of Wordpress</div>
-            <div class="skill-odd">Basics of Symfony4</div>
-            <div class="skill-even">Learning React Redux Node</div>
+            
         </div>
 
         <div class="contact">
