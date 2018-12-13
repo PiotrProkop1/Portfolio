@@ -17,23 +17,15 @@
 
     <main>
         <div class="about">
-            <img src="static/my-img.jpg" alt="My img" class="about-img">
-            <div class="about-arrow"></div>
-            <div class="about-rect"><span class="rect-info">It's me!</span></div>
-
-            <div class="about-info">
-                Hi, my name is Piotr, and i'm junior web developer. I'm currently looking for a programing job,
-                becouse it is my passion and hobby. I don't have any commercail experience yet, but i have some decent programming skill and
-                i always want to improve.
-            </div>
+            
         </div>
 
         <div class="skills">
-            
+
         </div>
 
         <div class="contact">
-            
+
         </div>
     </main>
 
