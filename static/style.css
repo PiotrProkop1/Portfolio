@@ -112,11 +112,11 @@ header .header-btn:focus {
         header .header-img {
             width: 100vw;
         }
-    
+
         header .header-info {
             top: 30%;
         }
-    
+
         header .header-btn {
             font-size: 3rem;
             padding: 3rem;
@@ -138,80 +138,58 @@ header .header-btn:focus {
 /* about styles: */
 
 .about {
-    width: 100vw;
-    padding: 2rem 0;
-    background-color: #2191fb;
-    position: relative;
-}
-
-.about .about-info {
-    width: 80%;
-    margin: 0 auto;
-    color: #f0f0f0;
-    font-size: 2rem;
-    text-align: center;
-    line-height: 3rem;
+  padding: 2rem;
+  background-color: #70c1b3;
 }
 
 .about .about-img {
-    width: 15rem;
-    height: 10rem;
-    border-radius: 50%;
-    border: 1rem solid #fffaff;
-    margin: 2rem auto;
-    display: block;
+  height: auto;
+  width: 50vw;
+  border-radius: 50%;
+  border: .7rem solid #b2dbbf;
+  margin: 7rem auto;
+  display: block;
 }
 
-.about .about-arrow {
-    width: 0; 
-    height: 0; 
-    border-left: 4rem solid transparent;
-    border-right: 4rem solid transparent;
-    border-bottom: 4rem solid #fffaff;
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
+.about h3 {
+  color: #f0f0f0;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 5rem;
 }
 
-.about .about-rect {
-    width: 3rem;
-    height: 12rem;
-    background-color: #fffaff;
-    margin-bottom: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    color: #f0f0f0;
-    font-size: 5rem;
-}
-
-.about .about-rect .rect-info {
-    transform: translateX(150%);
-    display: block;
+.about .about-text {
+  color: #f0f0f0;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 @media screen and (min-width: 768px) {
-    .about .about-img {
-        width: 30rem;
-        height: 25rem;
-        margin: 4rem auto;
-    }
+  .about .about-img {
+    width: 30vw;
+  }
 
-    .about .about-info {
-        font-size: 5rem;
-        line-height: 10rem;
-    }
+  .about h3 {
+    font-size: 7rem;
+    margin-bottom: 7rem;
+  }
 
-    .about .about-arrow {
-        border-left: 8rem solid transparent;
-        border-right: 8rem solid transparent;
-        border-bottom: 8rem solid #fffaff;
-    }
-    
-    .about .about-rect {
-        width: 6rem;
-        height: 20rem;
-        font-size: 7rem;
-    }
+  .about .about-text {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
 }
 
-/* skills styles: */
+@media screen and (min-width: 1024px) {
+  .about h3 {
+    font-size: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .about .about-text {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+}
