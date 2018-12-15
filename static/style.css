@@ -65,10 +65,17 @@ header .header-btn {
     animation-delay: .5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+    transition: box-shadow .5s ease;
 }
 
 header .header-btn:focus {
     outline: none;
+    box-shadow: 0 0 15px #f0f0f0;
+}
+
+header .header-btn:hover {
+    box-shadow: 0 0 15px #f0f0f0;
+    cursor: pointer;
 }
 
 .header-collapse {
@@ -183,6 +190,10 @@ header .header-btn:focus {
 }
 
 @media screen and (min-width: 1024px) {
+    .about .about-img {
+        width: 20vw;
+    }
+
   .about h3 {
     font-size: 6rem;
     margin-bottom: 6rem;
@@ -192,4 +203,21 @@ header .header-btn:focus {
     font-size: 3.5rem;
     line-height: 4rem;
   }
+}
+
+/* footer styles: */
+
+footer {
+    padding: 3rem;
+    font-size: 2rem;
+    color: #f0f0f0;
+    background-color: #1C2541;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+        padding: 4rem;
+        font-size: 3rem;
+    }
 }
