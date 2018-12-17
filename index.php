@@ -1,3 +1,9 @@
+<?php
+    require_once("scripts/database.php");
+
+    $skills = $pdo->query("SELECT * FROM skills", PDO::FETCH_OBJ);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +39,15 @@
         </div>
 
         <div class="skills">
-
+            <ul>
+                <?php if($skills->rowCount() > 0) : ?>
+                    <?php foreach($skills as $skill) : ?>
+                    <li><?php echo $skill->text; ?></li>
+                    <?php endforeach; ?>
+                <?php else : ?>
+                    <li>No skills current added!</li>
+                <?php endif; ?>
+            </ul>
         </div>
 
         <div class="contact">
@@ -43,6 +57,12 @@
 
     <footer>
         Piotr Prokop Portfolio <?php echo date('Y') ?>
+        <h3>Login to admin page</h3>
+        <form action="scripts/login.php" method="POST" class="login-form">
+            <input type="text" placeholder="Admin email..." name="email">
+            <input type="password" placeholder="Password..." name="password">
+            <button type="submit">Login!</button>
+        </form>
     </footer>
 
     <script src="static/header-collapse.js"></script>

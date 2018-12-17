@@ -205,6 +205,23 @@ header .header-btn:hover {
   }
 }
 
+/* skills styles: */
+
+.skills {
+    background-color: #7699D4;
+    padding: 3rem;
+    font-size: 2.5rem;
+    color: #f0f0f0;
+}
+
+.skills ul {
+    text-align: center;
+}
+
+.skills ul li {
+    list-style-type: none;
+}
+
 /* footer styles: */
 
 footer {
@@ -215,9 +232,87 @@ footer {
     text-align: center;
 }
 
+footer .login-form {
+    width: 70vw;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: .3rem solid #70c1b3;
+    border-radius: .5rem;
+    text-align: center;
+    display: block;
+}
+
+footer h3 {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+footer .login-form input {
+    width: 80%;
+    border: .1rem solid #f0f0f0;
+    border-radius: .5rem;
+    padding: 1rem .5rem;
+    font-size: 2rem;
+    color: #ccc;
+    margin: 1rem 0;
+    box-sizing: border-box;
+}
+
+footer .login-form input:focus {
+    outline: none;
+    border: .1rem solid #70c1b3;
+}
+
+footer .login-form button {
+    width: 80%;
+    border: .3rem solid #70c1b3;
+    border-radius: .5rem;
+    padding: 2rem .5rem;
+    font-size: 2rem;
+    margin: 1rem 0;
+    background-color: #70c1b3;
+    color: #f0f0f0;
+}
+
+footer .login-form button:focus {
+    outline: none;
+}
+
+@media screen and (min-width: 768px) {
+    footer .login-form {
+        width: 75vw;
+        border: .5rem solid #70c1b3;
+        border-radius: .5rem;
+    }
+
+    footer h3 {
+        font-size: 4rem;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     footer {
         padding: 4rem;
         font-size: 3rem;
+    }
+
+    footer .login-form {
+        width: 80vw;
+        padding: 3rem;
+        margin: 3rem auto;
+    }
+
+    footer h3 {
+        font-size: 5rem;
+    }
+
+    footer .login-form input, footer .login-form button {
+        width: 90%;
+        padding: 1rem;
+        font-size: 3rem;
+    }
+
+    footer .login-form button {
+        padding: 3rem 1rem;
     }
 }
